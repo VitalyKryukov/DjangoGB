@@ -91,7 +91,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'DjangoGB.wsgi.application' # КОР. Было 'myproject.wsgi.application'
+WSGI_APPLICATION = 'DjangoGB.wsgi.application' # КОР. Было 'myproject.wsgi.application'ff
 
 
 # Database
