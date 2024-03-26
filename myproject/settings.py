@@ -43,7 +43,6 @@ INTERNAL_IPS = [
 # Application definition
 
 INSTALLED_APPS = [
-    'DjangoGB'  # Не было
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -71,7 +70,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'DjangoGB.urls' # КОР. Было 'myproject.urls'
+ROOT_URLCONF = 'myproject.urls'
 
 TEMPLATES = [
     {
@@ -91,7 +90,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'DjangoGB.wsgi.application' # КОР. Было 'myproject.wsgi.application'ff
+WSGI_APPLICATION = 'myproject.wsgi.application'
 
 
 # Database
